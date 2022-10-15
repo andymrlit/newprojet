@@ -3404,7 +3404,6 @@
  │➪ ${prefix}slow 
  │➪ ${prefix}tupai 
  ╰───────────────❏` 
- let btn = [{ 
  
                                  quickReplyButton: { 
                                      displayText: 'Rules❗', 
