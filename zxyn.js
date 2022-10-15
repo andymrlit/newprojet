@@ -1016,7 +1016,7 @@
  ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')} 
  │  
  └──── 
- 
+  
  *${prefix}hapusvote* - untuk menghapus vote` 
              let buttonsUpvote = [ 
                {buttonId: `${prefix}upvote`, buttonText: {displayText: '𝚄𝙿𝚅𝙾𝚃𝙴'}, type: 1}, 
@@ -2034,8 +2034,8 @@
                      ["aquarius", new Date(1970, 0, 20)], 
                      ["pisces", new Date(1970, 1, 19)], 
                      ["aries", new Date(1970, 2, 21)], 
-                     ["taurus", new Date(1970, 3, 21)],
-                    ["gemini", new Date(1970, 4, 21)], 
+                     ["taurus", new Date(1970, 3, 21)], 
+                     ["gemini", new Date(1970, 4, 21)], 
                      ["cancer", new Date(1970, 5, 22)], 
                      ["leo", new Date(1970, 6, 23)], 
                      ["virgo", new Date(1970, 7, 23)], 
@@ -3404,8 +3404,32 @@
  │➪ ${prefix}slow 
  │➪ ${prefix}tupai 
  ╰───────────────❏` 
- 
-
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3457,8 +3481,32 @@
  │➪ ${prefix}setexif 
  │➪ ${prefix}setmenu [option] 
  ╰───────────────❏` 
-  
-
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3519,8 +3567,32 @@
  │➪ ${prefix}cekvote 
  │➪ ${prefix}hapusvote 
  ╰───────────────❏` 
-
-
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3568,8 +3640,32 @@
  │➪ ${prefix}webtoons 
  │➪ ${prefix}drakor 
  ╰───────────────❏` 
-
-
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3624,8 +3720,32 @@
  │➪ ${prefix}joox [query] 
  │➪ ${prefix}soundcloud [url] 
  ╰───────────────❏` 
-
-
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3675,8 +3795,32 @@
  │➪ ${prefix}ringtone [query] 
  │➪ ${prefix}stalk [option] [query] 
  ╰───────────────❏` 
-
-
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3729,8 +3873,32 @@
  │➪ ${prefix}neko 
  │➪ ${prefix}shinobu 
  ╰───────────────❏` 
-
-
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3801,8 +3969,32 @@
  │➪ ${prefix}blackpink 
  │➪ ${prefix}gluetext 
  ╰───────────────❏` 
-
-
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3854,8 +4046,32 @@
  │➪ ${prefix}harrypotter 
  │➪ ${prefix}retrolol 
  ╰───────────────❏` 
-
-
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3904,8 +4120,32 @@
  │➪ ${prefix}igcertificate 
  │➪ ${prefix}ytcertificate 
  ╰───────────────❏` 
-
-
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3959,8 +4199,32 @@
  │➪ ${prefix}math [mode] 
  │➪ ${prefix}suitpvp [@tag] 
  ╰───────────────❏` 
-
-
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4030,8 +4294,32 @@
  │➪ ${prefix}zodiak 
  │➪ ${prefix}shio 
  ╰───────────────❏` 
- 
-
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4089,9 +4377,32 @@
  │➪ ${prefix}styletext 
  │➪ ${prefix}smeme 
  ╰───────────────❏` 
-
-  
-   .
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4141,8 +4452,32 @@
  │➪ ${prefix}listonline 
  │➪ ${prefix}speedtest 
  ╰───────────────❏` 
- 
-   .
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4190,8 +4525,32 @@
  │➪ ${prefix}getmsg 
  │➪ ${prefix}delmsg 
  ╰───────────────❏` 
- 
-   .
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4235,9 +4594,32 @@
  │➪ ${prefix}next 
  │➪ ${prefix}keluar 
  ╰───────────────❏` 
-
-  
-   .
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4282,8 +4664,32 @@
  │➪ ${prefix}juzamma 
  │➪ ${prefix}tafsirsurah 
  ╰───────────────❏` 
- 
-   .
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4334,8 +4740,32 @@
  │➪ ${prefix}slow 
  │➪ ${prefix}tupai 
  ╰───────────────❏` 
-
-   .
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules❗', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner👤', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Tampilkan Menu📚', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4352,8 +4782,33 @@
              break 
                      
              case 'menu': case 'help': case '?': { 
-                 anu = `${ucapanWaktu} ${pushname}\n\nSaya ${global.namabot}, Bot Ini Adalah Beta Multi Device WhatsApp.\n\n${global.namabot} Adalah Hasil Recode ${global.namaowner} Menggunakan Base Dari Dika Ardnt (Hisoka-Morou).\n\nJika Kamu Menemukan Semacam Bug Atau Kesalahan Harap Lapor Ke Owner Agar Segera Di Perbaiki😁` 
-    
+                 anu = `${ucapanWaktu} ${pushname}\n\nSaya ${global.namabot}, Bot Ini Adalah Beta Multi Device WhatsApp.\n\n${global.namabot} Adalah Hasil Recode ` 
+                 let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Rules', 
+                                     id: 'rules' 
+                                 } 
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'Owner', 
+                                     id: 'owner' 
+                                 }   
+                             }, { 
+                                 quickReplyButton: { 
+                                     displayText: 'menu', 
+                                     id: 'command' 
+                                 } 
+                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4377,7 +4832,16 @@
  ╰───────────────❏ 
   
  *TERIMA KASIH BUAT YANG SUDAH MAU DONASI🤗*` 
- 
+ let btn = [{ 
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
                              }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
@@ -4450,7 +4914,16 @@
  Pembuatan Bot Ini 
  Ini` 
  let btn = [{ 
-         
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                                 }, { 
                                  quickReplyButton: { 
                                      displayText: 'Donasi💰', 
                                      id: 'donasi' 
@@ -4488,7 +4961,7 @@
  https://github.com/Adiwajshing 
  Dika Ardnt : 
  https://github.com/DikaArdnt 
- F : 
+ Fandy : 
  https://github.com/NzrlAfndi 
  Abuzz : 
  https://github.com/Abuzzpoet 
@@ -4498,7 +4971,16 @@
  Penyedia Rest Api : 
  https://zenzapis.xyz` 
          let btn = [{ 
-      
+                                 urlButton: { 
+                                     displayText: 'Youtube📽️', 
+                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
+                                 } 
+                                 }, { 
+                                 urlButton: { 
+                                     displayText: 'Group Bot🔗', 
+                                     url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
+                                 } 
+                                 }, { 
                                  quickReplyButton: { 
                                      displayText: 'Donasi💰', 
                                      id: 'donasi' 
