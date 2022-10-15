@@ -4783,12 +4783,8 @@
                      
              case 'menu': case 'help': case '?': { 
                  anu = `${ucapanWaktu} ${pushname}\n\nSaya ${global.namabot}, Bot Ini Adalah Beta Multi Device WhatsApp.\n\n${global.namabot} Adalah Hasil Recode ` 
-                 let btn = [{ 
-                                 urlButton: { 
-                                     displayText: 'youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w️', 
-                                     url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w' 
-                                 } 
-                                 }, { 
+                 let btn = [{' 
+                        
                                  urlButton: { 
                                      displayText: 'chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8', 
                                      url: 'https://chat.whatsapp.com/LlJzTGiOZHi9njJoZuXVn8' 
