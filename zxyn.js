@@ -3405,21 +3405,7 @@
  │➪ ${prefix}tupai 
  ╰───────────────❏` 
  
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3472,21 +3458,7 @@
  │➪ ${prefix}setmenu [option] 
  ╰───────────────❏` 
   
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3548,21 +3520,7 @@
  │➪ ${prefix}hapusvote 
  ╰───────────────❏` 
 
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3611,21 +3569,7 @@
  │➪ ${prefix}drakor 
  ╰───────────────❏` 
 
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3681,21 +3625,7 @@
  │➪ ${prefix}soundcloud [url] 
  ╰───────────────❏` 
 
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3746,21 +3676,7 @@
  │➪ ${prefix}stalk [option] [query] 
  ╰───────────────❏` 
 
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3814,21 +3730,7 @@
  │➪ ${prefix}shinobu 
  ╰───────────────❏` 
 
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3900,21 +3802,7 @@
  │➪ ${prefix}gluetext 
  ╰───────────────❏` 
 
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -3967,21 +3855,7 @@
  │➪ ${prefix}retrolol 
  ╰───────────────❏` 
 
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4031,21 +3905,7 @@
  │➪ ${prefix}ytcertificate 
  ╰───────────────❏` 
 
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4100,21 +3960,7 @@
  │➪ ${prefix}suitpvp [@tag] 
  ╰───────────────❏` 
 
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4185,21 +4031,7 @@
  │➪ ${prefix}shio 
  ╰───────────────❏` 
  
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4259,16 +4091,7 @@
  ╰───────────────❏` 
 
   
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+   .
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4319,16 +4142,7 @@
  │➪ ${prefix}speedtest 
  ╰───────────────❏` 
  
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+   .
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4377,16 +4191,7 @@
  │➪ ${prefix}delmsg 
  ╰───────────────❏` 
  
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+   .
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4432,16 +4237,7 @@
  ╰───────────────❏` 
 
   
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+   .
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4487,16 +4283,7 @@
  │➪ ${prefix}tafsirsurah 
  ╰───────────────❏` 
  
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+   .
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4548,16 +4335,7 @@
  │➪ ${prefix}tupai 
  ╰───────────────❏` 
 
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
+   .
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
@@ -4710,7 +4488,7 @@
  https://github.com/Adiwajshing 
  Dika Ardnt : 
  https://github.com/DikaArdnt 
- Fandy : 
+ F : 
  https://github.com/NzrlAfndi 
  Abuzz : 
  https://github.com/Abuzzpoet 
