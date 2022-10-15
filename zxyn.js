@@ -4259,11 +4259,7 @@
  │➪ ${prefix}smeme 
  ╰───────────────❏` 
 
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
+  
                                  quickReplyButton: { 
                                      displayText: 'Owner👤', 
                                      id: 'owner' 
@@ -4325,11 +4321,6 @@
  ╰───────────────❏` 
  
                                  quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
-                                 quickReplyButton: { 
                                      displayText: 'Owner👤', 
                                      id: 'owner' 
                                  }   
@@ -4386,12 +4377,7 @@
  │➪ ${prefix}getmsg 
  │➪ ${prefix}delmsg 
  ╰───────────────❏` 
-
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
+ 
                                  quickReplyButton: { 
                                      displayText: 'Owner👤', 
                                      id: 'owner' 
@@ -4446,11 +4432,7 @@
  │➪ ${prefix}keluar 
  ╰───────────────❏` 
 
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
+  
                                  quickReplyButton: { 
                                      displayText: 'Owner👤', 
                                      id: 'owner' 
@@ -4506,11 +4488,6 @@
  │➪ ${prefix}tafsirsurah 
  ╰───────────────❏` 
  
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
                                  quickReplyButton: { 
                                      displayText: 'Owner👤', 
                                      id: 'owner' 
@@ -4573,11 +4550,6 @@
  ╰───────────────❏` 
 
                                  quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
-                                 quickReplyButton: { 
                                      displayText: 'Owner👤', 
                                      id: 'owner' 
                                  }   
@@ -4605,21 +4577,6 @@
              case 'menu': case 'help': case '?': { 
                  anu = `${ucapanWaktu} ${pushname}\n\nSaya ${global.namabot}, Bot Ini Adalah Beta Multi Device WhatsApp.\n\n${global.namabot} Adalah Hasil Recode ${global.namaowner} Menggunakan Base Dari Dika Ardnt (Hisoka-Morou).\n\nJika Kamu Menemukan Semacam Bug Atau Kesalahan Harap Lapor Ke Owner Agar Segera Di Perbaiki😁` 
     
-                                 quickReplyButton: { 
-                                     displayText: 'Rules❗', 
-                                     id: 'rules' 
-                                 } 
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Owner👤', 
-                                     id: 'owner' 
-                                 }   
-                             }, { 
-                                 quickReplyButton: { 
-                                     displayText: 'Tampilkan Menu📚', 
-                                     id: 'command' 
-                                 } 
-                             }] 
                           let setbot = db.data.settings[botNumber] 
                          if (setbot.templateImage) { 
                          zxyn.send5ButImg(m.chat, anu, '© ZxynOfc', global.thumb, btn, global.thumb) 
